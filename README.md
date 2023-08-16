@@ -1,9 +1,9 @@
 
 # Order Management
 
-This system allows users to submit their requests and display them to the managers in the company.
-It allows managers to view the submitted requests, study their status, and approve or reject these requests.
-The site administrator can add new users (managers - users) or deactivate the accounts of current users and monitor the application in general.
+This system allows users to submit their requests and display them to the managers in the company.<br>
+It allows managers to view the submitted requests, study their status, and approve or reject these requests.<br>
+The site administrator can add new users (managers - users) or deactivate the accounts of current users and monitor the application in general.<br>
 
 
 ## Getting Started
@@ -64,21 +64,21 @@ The project should now be accessible at `http://127.0.0.1:8000`.
 ## Usage
 
 
-Upon completing these steps, three accounts will be generated:
+Upon completing these steps, three accounts will be generated:<br>
 
-User account:
-Email: user@user.com
-Password: password
+User account:<br>
+Email: user@user.com<br>
+Password: password<br>
 
-Manager account:
-Email: employee@employee.com
-Password: password
+Manager account:<br>
+Email: employee@employee.com<br>
+Password: password<br>
 
-Application administrator account:
-Email: admin@admin.com
-Password: password
+Application administrator account:<br>
+Email: admin@admin.com<br>
+Password: password<br>
 
-Additionally, five experimental dummy requests will be generated.
+Additionally, five experimental dummy requests will be generated.<br>
 
 Go ahead and enjoy exploring the application, and please let me know your feedback if you have any observations.
 
