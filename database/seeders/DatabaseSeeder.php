@@ -39,6 +39,6 @@ class DatabaseSeeder extends Seeder
             'code' => 'password'
         ]);
 
-        OrderFactory::factory(5)->create();
+        OrderFactory::new()->count(5)->create();
     }
 }

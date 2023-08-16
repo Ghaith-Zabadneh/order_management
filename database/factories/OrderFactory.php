@@ -21,7 +21,7 @@ class OrderFactory extends Factory
             'user_id' => $this->faker->randomElement(User::where('role','user')->pluck('id')->toArray()),
             'subject' =>$this->faker->randomElement(['الحصول على موافقة','الحصول على ترخيص','زيادة الراتب','الحصول على ترقيه']),
             'description' => 'هذا الوصف تجريبي لعملية ادخال طلب جديد. يمكن للمستخدم إدخال وصف الطلب هنا.',
-            'order_status' => $this->faker->randomElement('قيد المعالجة','مقبول','مرفوض')
+            'order_status' => $this->faker->randomElement(['قيد المعالجة','مقبول','مرفوض'])
         ];
     }
 }
